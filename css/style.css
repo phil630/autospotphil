@@ -1,0 +1,170 @@
+
+/*Welcome to my css page for the final*/
+
+
+.container{
+    max-width:1000px;
+    background-color:#C9DDFF;
+    margin:auto;
+    padding:10px;
+}
+
+/*container will be for the whole page to make it look nice and neat*/
+
+
+
+
+body {background-color: #E9D985;}
+h1{ text-align:center;
+    color:#DD1A41;
+    font-size: 88px;
+    border:20px solid #EF6D1C;
+    padding:20px;
+    }
+    
+    .row{
+        background-color:#EF6D1C ;
+        margin:auto;
+        font-size: 22px;
+    }
+    
+    /*  nav ul{list-style-type:none;*/
+    /*        padding:90;*/
+    /*        margin:auto;*/
+    /*        width:950px;*/
+    /*        background-color: #E9D985;*/
+    /*        text-align: left;*/
+    /*        display:flex;*/
+    /*}*/
+    
+    /*nav li { */
+    /*    display:inline-block;*/
+    /*    text-align: center;*/
+    /*    font-size:45px;*/
+    /*    border-right:50px;*/
+    /*    margin:auto;*/
+
+    /*}*/
+        
+    /*    nav li {display:inline-block;*/
+    /*            }*/
+    
+    /*nav li a:hover{color:#ffffff;*/
+    /*                background-color:#6C437A;}*/
+    
+    
+    
+.button{
+    text-align: center;
+}
+    
+    
+    
+
+
+#about_us {
+    border:15px solid #EF6D1C;
+    margin-top:55px;
+    margin-left: 115px;
+    width:75%;
+    padding:5px;
+    margin-bottom: 50px;
+    color:#70008C;
+}
+
+#contact_us {
+    Border:15px solid #EF6D1C;
+    margin:auto;
+    width:75%;
+    padding:5px;
+    text-align: center;
+}
+
+#our_services {
+    Border:5px solid #EF6D1C;
+    margin:auto;
+    width:95%;
+    text-align:center;
+    color:#70008C;
+}
+
+#testimony { 
+    Border:5px dotted #FF3C38;
+    margin:auto;
+    width:75%;
+    padding:13px;
+}
+
+
+.header{
+    height:200px;
+    margin:20px 10px;
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    }
+
+P {color:#70008C;
+    /*font-family: sans-serif;*/
+    }
+
+#our_services ul {
+    list-style-position:inside;
+    margin-bottom: 30px;
+    
+    
+}
+
+    /* I'm using the .move to move the few pictures to the right side on the webpage*/
+    
+    .move {
+        text-align: right;
+    }
+    
+    .fancytext {
+        display:flex;
+        justify-content: flex-end;
+        font-size: 60px;
+        inline-block;
+    }
+    
+    .fancy{
+        display: flex;
+        justify-content:flex-start;
+        font-size:60px;
+        inline-block
+    }
+    
+    .cc{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+  
+      .map{
+          text-align:center;
+      }
+      
+      footer {text-align: center;
+              /*color:red;*/
+              font-family: 'Indie Flower', cursive;
+      }
+      /*comment- I used the NYPL Staten Island location as my location for the auto spot*/
+    
+    /*this is the end of the css final*/
+    
+    @media screen and(min-width:400px){
+        body{
+            background-color:pink;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
